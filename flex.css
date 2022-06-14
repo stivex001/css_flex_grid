@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "lexend Deca", sans-serif;
+  
+}
+
+header {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 40px;
+}
+
+
+.container {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  place-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 50%;
+  margin: auto;
+  padding: 2em;
+}
+
+.logo {
+  width: 100%;
+  font-size: 5px;
+  margin: 20px 0 30px 0;
+}
+
+h1 {
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 10px;
+  margin-left: -60px;
+}
+
+p {
+  text-align: left;
+  font-size: 10px;
+  line-height: 20px;
+  padding: 50px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-style: none;
+  margin-bottom: 30px;
+  background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.sedan button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv button {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
